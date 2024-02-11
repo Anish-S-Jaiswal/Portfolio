@@ -1,0 +1,56 @@
+.container{
+    height: 550px;
+    width: 1240px;
+    background-image: url(89787.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.img{
+    margin-left: 800px;
+    margin-top: 100px;
+    width: 300px;
+    position: absolute;
+    height: 300px;
+    border-radius: 50%;
+}
+.name{
+    color:blueviolet;
+    font-size: 60px;
+    margin-left: 100px;
+    margin-top: 170px;
+    position: absolute;
+    font-family: 'Times New Roman', Times, serif;
+}
+.text{
+    color: white;
+    font-size: 20px;
+    margin-left: -410px;
+    margin-top: 100px;
+    position: absolute;
+    font-family: 'Times New Roman', Times, serif;
+}
+.skill{
+    height: 200px;
+    width: 1000px;
+    border-radius: 10px;
+    font-size: 35px;
+    margin-left: 120px;
+    margin-top: -20px;  
+    box-shadow: 0px 0px 20px grey;
+}
+.p1{
+    width: 300px;
+    height: 300px;
+    box-shadow: 0px 0px 10px black;
+    background-image: url(Screenshot\ \(345\).png);
+    background-size: cover;
+    border-radius: 10px;
+}
+.btn{
+    height: 40px;
+    width: 301px;
+    font-size: 20px;
+    background-color:crimson;
+    border-radius: 10px;
+    box-shadow: 5px 5px 4px rgb(14, 14, 14);
+}

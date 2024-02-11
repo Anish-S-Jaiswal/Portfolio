@@ -1,0 +1,116 @@
+
+.container{
+    height: 500px;
+    width: 400px;
+    background-color:black;
+    margin-left: 450px;
+    margin-top: 20px;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+.cont1{
+    height: 800px;
+    width: 350px;
+    margin-top: -150px;
+    margin-left: 30px;
+    background-color: whitesmoke;
+    position: absolute;
+    transition: ease;
+    animation: rotate 3s infinite linear;
+}
+@keyframes rotate {
+                from{
+                    transform: rotate(360deg);
+                }
+}
+.box{
+    height: 480px;
+    width: 380px;
+    position: absolute;
+    margin-top: -490px;
+    margin-left: 460px;
+    background-color:rgb(199, 99, 99);
+}
+.text1{
+    margin-left: 20px;
+    margin-top: -10px;
+    color: white;
+}
+.text2{
+    margin-left: 70px;
+    font-size: 30px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.inp1{
+    height: 50px;
+    width: 340px;
+    border: none;
+    box-shadow: 5px 5px 5px rgb(29, 28, 28);
+    margin-left: 20px;
+    font-size: 30px;
+}
+.inp1:hover{
+    border-radius: 10px;
+    outline: solid red;
+}
+.inp2{
+    height: 65px;
+    width: 240px;
+    margin-left:120px;
+    box-shadow: 5px 5px 5px rgb(29, 28, 28);
+    margin-top: -50px;
+    border: none;
+    /* background-color: rgb(65, 202, 236); */
+    font-size: 20px;
+}
+.inp2:hover{
+    outline: solid rgb(238, 12, 42);
+}
+.btn{
+    height: 40px;
+    width: 110px;
+    font-size: 30px;
+    border: none;
+    box-shadow: 5px 5px 5px rgb(29, 28, 28);
+    background: linear-gradient(50deg, yellowgreen,cyan);
+    margin-top: 15px;
+    margin-left: 120px;
+}
+.btn:hover{  
+        font-size: 25px;
+        background: linear-gradient(50deg,cyan,yellowgreen);    
+}
+.c{
+    height: 570px;
+    width: 400px;
+    margin-top: -60px;
+    position: absolute;
+    margin-left: -20px;
+    background-color: black;
+}
+.c1
+    {
+        height: 570px;
+        width: 400px;
+        margin-top: -60px;
+        position: absolute;
+        margin-left: 900px;
+        background-color: black;
+    }
+.t1{
+    font-size: 200px;
+    color: white;
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+.t2{
+    font-size: 45px;
+    color: white;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: absolute;
+    margin-left: 180px;
+    margin-top: 45px;
+}
